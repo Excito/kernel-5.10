@@ -16,8 +16,8 @@
  	help
 --- a/drivers/net/phy/marvell.c
 +++ b/drivers/net/phy/marvell.c
-@@ -1091,12 +1091,24 @@
- 		return err;
+@@ -1098,12 +1098,24 @@
+ 	}
  
  	/* Adjust LED Control */
 +#ifdef CONFIG_MARVELL_PHY_REVERSE

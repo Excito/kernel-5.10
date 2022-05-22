@@ -1,6 +1,6 @@
 --- a/drivers/net/phy/marvell.c
 +++ b/drivers/net/phy/marvell.c
-@@ -2686,6 +2686,23 @@
+@@ -2693,6 +2693,23 @@
  		.set_tunable = m88e1111_set_tunable,
  	},
  	{
@@ -24,7 +24,7 @@
  		.phy_id = MARVELL_PHY_ID_88E1118,
  		.phy_id_mask = MARVELL_PHY_ID_MASK,
  		.name = "Marvell 88E1118",
-@@ -3028,6 +3045,7 @@
+@@ -3035,6 +3052,7 @@
  	{ MARVELL_PHY_ID_88E1101, MARVELL_PHY_ID_MASK },
  	{ MARVELL_PHY_ID_88E1112, MARVELL_PHY_ID_MASK },
  	{ MARVELL_PHY_ID_88E1111, MARVELL_PHY_ID_MASK },
