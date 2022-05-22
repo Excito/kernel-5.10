@@ -1,6 +1,7 @@
 linux (1:5.10.117-1) UNRELEASED; urgency=medium
 
   * New upstream version
+  * Added intel wifi drivers 
 
  -- Charles Leclerc <leclerc.charles@gmail.com>  Sun, 22 May 2022 11:34:52 +0200
 
