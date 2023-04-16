@@ -320,7 +320,7 @@
  ncscope.*
 --- a/Makefile
 +++ b/Makefile
-@@ -1493,7 +1493,7 @@
+@@ -1489,7 +1489,7 @@
  # Directories & files removed with 'make mrproper'
  MRPROPER_FILES += include/config include/generated          \
  		  arch/$(SRCARCH)/include/generated .tmp_objdiff \
